@@ -14,7 +14,7 @@ def server(input, output, session):
     @reactive.Effect
     @reactive.event(input.submit)
     def _():
-        message.set(f"Hello, {input.name()}! Welcome to the app 2.0!")
+        message.set(f"Hello, {input.name()}! Welcome to the app 3.0!")
     
     @output
     @render.text
